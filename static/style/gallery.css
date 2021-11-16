@@ -1,0 +1,77 @@
+.gallery_section
+{
+	align-items: center;
+	border: 2px solid grey;
+    border-radius: 22px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1000px;
+	padding: 10px;
+}
+.slideshow
+{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.btn_icons
+{
+	background-color: #d7c5c500;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
+	flex: auto;
+	height: 45px;
+	width: 33%;
+}
+.prev_btn
+{
+	background-image: url(../media/left-arrow.png);
+}
+.next_btn
+{
+	background-image: url(../media/right-arrow.png);
+}
+.delete_btn
+{
+	background-image: url(../media/delete.png);
+}
+.button_grid
+{
+	display: flex;
+	flex-direction: row;
+	margin: 15px;
+}
+.comment_header
+{
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	font-family: fantasy;
+	font-size: large;
+	text-align: center;
+	width: 100%;
+}
+.title_text
+{
+	font-family: fantasy;
+	font-size: large;
+    overflow-wrap: break-word;
+	text-align: center;
+}
+.display_img
+{
+	max-width: 100%;
+}
+.author_text{
+	overflow-wrap: break-word;
+}
+.gallery_title{
+    font-size: 366%;
+    font-variant-caps: all-small-caps;
+    text-decoration: underline;
+	text-align: center;
+}

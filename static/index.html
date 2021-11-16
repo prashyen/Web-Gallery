@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Web Gallery</title>
+        <link href="style/main.css" rel="stylesheet" type="text/css"/>
+        <link href="style/gallery.css" rel="stylesheet" type="text/css"/>
+        <link href="style/form.css" rel="stylesheet" type="text/css"/>
+        <link href="style/comment.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <a href="/" id="title">Web Gallery</a>
+            <a href="/login.html" class="header_btn sign_up_btn" id="signup">Sign Up</a>
+            <a href="/signout/" class="header_btn sign_out_btn" id="signout">Sign Out</a>
+        </header>
+        <p id="error"></p>
+        <div class="page_content">
+            <button class="image_form_toggle" >Show/Hide Post image form</button>
+            <form class="form" id="post_image_form">
+                <div class="form_title">Post an Image</div>
+                <input class="text_form_field" required type="text" id="img_title" placeholder="Image title...">
+                <input class="text_form_field" required type="file" accept="image/*" id="img" placeholder="https://www...">
+                <input class="submit_form_btn" type="submit"/>
+            </form>
+            <div class="gallery">
+                <div class="gallery_section">
+                    <div id="images" class="slideshow"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href='/credits.html'>credits</a>
+        </footer>
+        <script src="js/controller.js"></script>
+        <script src="js/api.js"></script>
+    </body>
+</html>

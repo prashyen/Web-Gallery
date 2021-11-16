@@ -1,0 +1,55 @@
+#title
+{
+	font-family: fantasy;
+	font-size: 200%;
+	margin: auto;
+	padding-left: 15px;
+	text-decoration: none;
+}
+header
+{
+	background: #cabfbd63;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+	padding: 7px;
+	position: relative;
+	width: 98%;
+}
+footer
+{
+	bottom: 7px;
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#error{
+    border: 2px solid red;
+	display: none;
+    font-size: x-large;
+    margin: auto auto 25px auto;
+    width: 70%;
+}
+.page_content
+{
+	height: 100%;
+	margin: auto;
+	padding: 94px;
+	width: 75%;
+	z-index: -1;
+}
+.header_btn{
+    border: 1px solid black;
+    background-color: #efefef;
+    padding: 4px;
+    top: 20px;
+    font-size: 88%;
+    position: absolute;
+}
+.sign_out_btn{
+	right: 25px;
+}
+.sign_up_btn{
+	right: 142px;
+}

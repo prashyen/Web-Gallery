@@ -1,0 +1,64 @@
+.image_form_toggle
+{
+	border: 1px solid black;
+	border-radius: 22px;
+	display: flex;
+	flex-direction: column;
+	margin: 37px auto 37px auto;
+	max-width: 1000px;
+	padding: 10px;
+	width: 90%;
+}
+.image_form_toggle:hover
+{
+	filter: invert(1);
+}
+form
+{
+	background-color: #f2f2f2;
+	border: 2px solid black;
+	border-radius: 12px;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	margin: auto auto 37px auto;
+	padding: 10px;
+}
+.login_btn{
+	width: 47%;
+}
+.form
+{
+	max-width: 1000px;
+	
+}
+.form_title
+{
+	font-size: x-large;
+	margin: 12px;
+	text-align: center;
+}
+.text_form_field
+{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 8px 8px;
+	padding: 12px 20px;
+}
+.submit_form_btn
+{
+	background-color: dimgrey;
+	border-radius: 4px;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+}
+.submit_form_btn:hover
+{
+	background-color: #22222242;
+	color: white;
+}
+.comment_form
+{
+	max-width: 800px;
+}
